@@ -1,0 +1,49 @@
+import json
+
+def validar_nums(text: str) -> float :
+    while True:
+        try:
+            val=float(input(text))
+            return val
+        except:
+
+            print("Ingrese un valor numerico")
+            
+            
+def validar_words(text: str) -> str:
+    while True: 
+            val=input(text)
+
+            if val.replace(" ","").isalpha():
+                return val
+            else:
+                print("Ingrese solo caracteres alfanumericos")
+
+def search_user(data: list, id: int): #funcion que revisa si el usuario ya ha sido filtrado, para que no pueda ser ingresado nuevamente 
+    for i in data:
+        if i["id"] == id:
+            return False
+        
+def acces(intentos=3):
+    while True:
+        user=input("Ingrese su usuario: ")
+        password=validar_nums("Ingrese contraseña: ")
+        with open("USUbonus.json","r") as acceso:
+            permiss=json.load(acceso)
+            for opcion in permiss.values():
+                if opcion["user"] == user and opcion["password"] == password:
+                    print("Acceso consedido, puede ingresar")
+                    return True 
+                else:
+                    print(f"Acceso denegado, restan {intentos} intentos")
+                    user=input("Ingrese su usuario: ")
+                    password=validar_nums("Ingrese contraseña: ")
+                    intentos -=1
+                    
+                    if intentos == 0:
+                        print("Ha excedido el numero de intentos")
+                        return False
+                    
+
+
+
