@@ -1,0 +1,35 @@
+{
+    "1010101010":
+        {
+        "user":"mariana sepulveda",
+        "password":1234,
+        "permisos":"Administrador",
+        "fecha de ingreso":["2019-07-01"]
+        }
+    ,
+    "1111111111":
+        {
+        "user":"Elkin Perez",
+        "password":1234,
+        "permisos":"Operador",
+        "fecha de ingreso":["2019-07-01"]
+        }
+    ,
+    "1212121212":
+        {
+        "user":"Camila Serna",
+        "password":1234,
+        "permisos":"Administrador",
+        "fecha de ingreso":["2019-07-01"]
+        }
+    ,
+    "1313131313":
+        {
+        "user":"Oscar Jaramillo",
+        "password":1234,
+        "permisos":"Operador",
+        "fecha de ingreso":["2019-04-01"]
+
+        }
+}
+
