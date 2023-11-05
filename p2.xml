@@ -1,0 +1,18 @@
+<patient>
+    <name>Andrés Felipe</name>
+    <lastname>Suarez mira</lastname>
+    <id>1009876543</id>
+    <age>26</age>
+    <eps>Coomeva</eps>
+    <sex>Marculino</sex>
+    <hb>
+        <a1a>.1</a1a>
+        <a1b>.7</a1b>
+        <a1c>5.9</a1c>
+        <F>0.5</F>
+        <s-win>No</s-win>
+    </hb>
+    <dia>Controlado</dia>
+    <address city="Envigado">Cra 32 No. 37Sur - 13</address>
+    <phone>6043456212</phone>
+</patient>

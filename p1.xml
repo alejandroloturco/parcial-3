@@ -1,0 +1,18 @@
+<patient>
+    <name>Juan Camilo</name>
+    <lastname>Martínez Contreras</lastname>
+    <id>70987654</id>
+    <age>44</age>
+    <eps>Sura</eps>
+    <sex>Masculino</sex>
+    <hb>
+        <a1a>.2</a1a>
+        <a1b>.0</a1b>
+        <a1c>5.1</a1c>
+        <F>1.0</F>
+        <s-win>Si</s-win>
+    </hb>
+    <dia>No Diabético</dia>
+    <address city="Medellín">Av 54 No. 24 - 34</address>
+    <phone>6045678899</phone>
+</patient>
